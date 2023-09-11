@@ -5,8 +5,8 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"d17bff","BackgroundColor":"101010","OutlineColor":"0B0B0B"}') },
-    ['Default2'] = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"131313","AccentColor":"6f00a3","BackgroundColor":"111113","OutlineColor":"1c1c1c"}') },
+		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"6672a4","BackgroundColor":"101010","OutlineColor":"0B0B0B"}') },
+                ['Default 2'] 		= { 1, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"d17bff","BackgroundColor":"101010","OutlineColor":"0B0B0B"}') },
 		['BBot'] 			= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Fatality']		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
 		['Jester'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
